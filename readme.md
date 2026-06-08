@@ -79,6 +79,3 @@ Variables in java are two type
 2.Reference datatype:it store the memory address into the stack where the data is actually present.changing of the copy actual change the original one to.  
 let's see how  it store the address of actual data
 
-
-
-# Instance Variable
