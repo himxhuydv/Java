@@ -74,8 +74,19 @@ if the main() method is start executing if there is any other method let's say g
 # Variables
 Variable is a reusable container that contains the values.
 Variables in java are two type 
-1.Primitive datatype:built in data that store value to the memory (stack) and store that value.Always written in small letter(int,double,char,boolean).it is immutable change of copy of this variable doesn't effect the original variable. 
+* 1.Primitive datatype:built in data that store value to the memory (stack) and store that value.Always written in small letter(int,double,char,boolean).it is immutable change of copy of this variable doesn't effect the original variable. 
 
-2.Reference datatype:it store the memory address into the stack where the data is actually present.changing of the copy actual change the original one to.  
+* 2.Reference datatype:it store the memory address into the stack where the data is actually present.changing of the copy actual change the original one to.  
 let's see how  it store the address of actual data
+**Memory address(stack) that points to the heap.**
 
+# Instance variables
+so the instance varibale is that variable that is declared outside of the method but inside of the class.
+**One,important thing is that become the part of the object when the object is created.**
+we like to talk in the aspect :
+when we create the instance variable that will be defined as the object attributes:
+1.a car is a class   
+2.then the attributes that is declared will be instance variable.
+3.And then the object will copy the class instance variable 
+and make their own storage space where they will have that instance store.
+*So, when the class declared the instance variable,but it doesn't create the storage.  it will create when the object is created then it will be assing the instance variable to the object and it can be changed.*
