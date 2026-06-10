@@ -15,21 +15,21 @@ import java.util.Scanner; // important for using of the Scanner function
 public class main {
                 public static void main(String[] args)
 
-    {
+    { /*
         // Primitive
         //int age; // declaration
         int age = 10; // declaration and assingement
         double temp=-12.4; // double can have int and the decimal to
         char grade='a';
         boolean isStudent=true; // in this as you can see the student is true actually.And here i'm using the camelCase.
-        boolean isOnline=false; /*
+        boolean isOnline=false; /
         System.out.println(age);
         System.out.println(temp);
         System.out.println(grade);
         System.out.println(isStudent);
         System.out.println(isOnline);// we use the this boolean inside of program more than usually in output.
         System.out.println("Today's temperature "+ temp);
-        System.out.print("Your age " + age); */
+        System.out.print("Your age " + age);
         // showing the use of boolean more in program more then in output
         if(isStudent) {
             //System.out.print("in class 10");
@@ -46,7 +46,7 @@ public class main {
         */
         // Scanner
         // new Scanner object is created inside of the memory
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); /*
         System.out.println("Enter your name: ");
         String Yourname = scanner.nextLine();// nextLine basically we are using this to read the spaces to in the words nextLine is specifically for reading the spaces to.
         System.out.println("Enter your Dad's name ");
@@ -65,10 +65,33 @@ public class main {
         }
         else {
             System.out.println("Invalid Entry ");
-        }
+        }/*
 
        // System.out.println("Your dad's name is : " + Dadname);
        // System.out.print("Your name is " + Yourname);
+        */
+     /*
+
+        // Common issues - buffer nextInt,nextBoolean,nextdouble ..(primitive variable) then after that using the nextLine --
+        // what actually happened is when you write the nextInt or any primitive variable then after writing it when you press enter -- the Int input get store into that variable but the Enter you enter is waiting to be store
+        // Enter key - that actually a \n that is waiting to be read, after the input of int then the nextLine will read the Enter will be store into the variable which having the nextLine and will display empty: (or you can say blank)
+/*
+      */
+     //
+        System.out.print("Enter respected salary of you :");
+        int salary = scanner.nextInt(); // after taking the input of int you press enter.after storing the input you have enter waiting to be input/
+        // For Overcoming this problem we need this to overcome the problem.
+        scanner.nextLine();
+        System.out.print("your new name ");
+        String Newname = scanner.nextLine(); // in this as you can see the nextLine is capturing the enter.
+
+        System.out.print("Output"+ " "+salary +" "+ Newname);
+        // always close the scanner because it also a good coding ethics
+        scanner.close();
+
+
+
+        //
         }
 
     }
