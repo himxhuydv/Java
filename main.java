@@ -13,9 +13,7 @@
 import java.util.Scanner; // important for using of the Scanner function
 
 public class main {
-                public static void main(String[] args)
-
-    { /*
+    public static void main(String[] args) { /*
         // Primitive
         //int age; // declaration
         int age = 10; // declaration and assingement
@@ -45,8 +43,8 @@ public class main {
         System.out.println(age+" "+ grade + " " + "So You can have this food because your grade is good" + " " + name);
         */
         // Scanner
-        // new Scanner object is created inside of the memory
-        Scanner scanner = new Scanner(System.in); /*
+        // new Scanner object is created inside of the memory and take input from the user and store into the scanner variable.
+        /*Scanner scanner = new Scanner(System.in);  Scanner is a  class from the Scanner java.util package. scanner is the object (variable),New Scanner() create a scanner object in the memory.
         System.out.println("Enter your name: ");
         String Yourname = scanner.nextLine();// nextLine basically we are using this to read the spaces to in the words nextLine is specifically for reading the spaces to.
         System.out.println("Enter your Dad's name ");
@@ -77,8 +75,8 @@ public class main {
         // Enter key - that actually a \n that is waiting to be read, after the input of int then the nextLine will read the Enter will be store into the variable which having the nextLine and will display empty: (or you can say blank)
 /*
       */
-     //
-        System.out.print("Enter respected salary of you :");
+        //
+        /* System.out.print("Enter respected salary of you :");
         int salary = scanner.nextInt(); // after taking the input of int you press enter.after storing the input you have enter waiting to be input/
         // For Overcoming this problem we need this to overcome the problem.
         scanner.nextLine();
@@ -88,12 +86,42 @@ public class main {
         System.out.print("Output"+ " "+salary +" "+ Newname);
         // always close the scanner because it also a good coding ethics
         scanner.close();
+        */
+        // Conditional Statement
+        /*Scanner scanner = new Scanner(System.in);
+        int age;
+        String name;
+        System.out.println("Enter your name");
+        name = scanner.nextLine();
+//        Group 1
+        if (name.isEmpty()) {
+            System.out.print("invalid ");
+
+        } else {
+            System.out.println("Enter your age");
+            age = scanner.nextInt();
+            if (age >= 70) {
+                System.out.println("Your are Old Man");
+
+            }
+            else if (age >= 18) {
+                System.out.println("You are an adult");
+            {
+                {
 
 
 
-        //
+                }
+                    //else{
+                    //  System.out.println("you are child");
+                }
+                //
+            }
+
         }
-
-    }
+    }*/
+        // Switch case
+        
+}}
 
 

@@ -28,8 +28,10 @@ instruction tell how
 **Why we say java is computing platform?**  
 Because java provide JVM,JDK,JRE and libraries required to develop and run java application on different operating system.  
 
+
+#Object-Oriented Programing 
 # Methods  
-a block of code that perform specific an action you call it.  
+a block of code that perform specific an action when you call it.  
 
 # Access Modifier  
 Access Modifier controls who can access the class,method,constructor or variable. 
@@ -95,7 +97,7 @@ and make their own storage space where they will have that instance store.
 # camelCase
 you write two words together then you need to write the first letter of the first words small and then the first letter capital of the second word.**This is used for the variable that datatype is primitive,that store into the memory stack.**
 # PascalCase 
-You have to write both words starting letter in the capital.when you combined both of them together.
+You have to write both words starting letter in the capital.when you combined both of them together. class object 
 
 # Scanner
 Scanner is built in class,we need to import the scanner 
@@ -114,3 +116,35 @@ buffer nextInt,nextBoolean,nextdouble ..(primitive variable) then after that usi
         // what actually happened is when you write the nextInt or any primitive variable then after writing it when you press enter -- the Int input get store into that variable but the Enter you enter is waiting to be store
         // Enter key - that actually a \n that is waiting to be read, after the input of int then the nextLine will read the Enter will be store into the variable which having the nextLine and will display empty: (or you can say blank)
 
+
+# Procedural Programming 
+* we organise the programs in a sequence and execute step by step.
+* Data and function are separate.(data is not safe anybody can acess the function.)
+* Limited code reusability 
+* **No Inheritance** is supported 
+* **
+
+# Abstraction 
+Abstraction is a Object Oriented Concepts which hide unnecessary implementation details only showing the required functionality to the users.
+```abstract class Animal{```
+```   abstract void sound();```
+```class Dog extends Animal{```
+  ```void sound(){```
+  ``` system.out.print("Barks");```
+  ```}```
+```}```
+Syntax Explanation: 
+* **abstract class Animal{**  
+  **abtract void sound();**  
+  Basically every animal make the sound "So,Every Animal must have a sound () method."
+* **class Dog extends Animal{**  
+      **void sound(){**
+      **system.out.println("bark");**
+      **}**
+**}**
+
+
+**User Perspective**  
+User will Animal has a method 
+sound(); // this mean i make animal/dog make sound.**(this is the interface or functionality is being shown.)**
+**hidden Implementation-System.out.println("bark");**
