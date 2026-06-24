@@ -121,7 +121,11 @@ public class main {
         }
     }*/
         // Switch case
+
+        //
+        // printf %[flags][width][.precision][specifier-charater] by using printf statemnent we can do amny things
         
+
 }}
 
 

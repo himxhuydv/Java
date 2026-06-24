@@ -148,3 +148,48 @@ Syntax Explanation:
 User will Animal has a method 
 sound(); // this mean i make animal/dog make sound.**(this is the interface or functionality is being shown.)**
 **hidden Implementation-System.out.println("bark");**
+
+
+
+# Operators 
+the symbols that tell the computer to perform an operations on values or variables.
+
+# Arthematic operators
+these operator used for arthematic problem  which contains like +,-,%,x,/ this.
++ = adding between numbers.  
+- = substracting between numbers.  
+x = multiplying between numbers.  
+/ = dividing between numbers we get.we qoutients in the output.  
+% = we do that between to get the remainder in the output.  
+
+# Augmented Assingment operators 
+Augmented assingment operators also called shorthand operators because they provide a shorter way of writing an operations and assingement together.
+instead of storing the variable into another variable after the arthematic operations we reassign that to the same variable.
+```int x=10; ```
+``` int y=3;```
+ 
+# Increment and Decrement Operators
+**Increment operators** is nothing just incrementing in the variables value by 1 **++;**.  
+**Decrement operators** is also same we changing the variable variables value but here we substract it by 1 **--;**.  
+
+# Order of Operators 
+basically this is nothing just the order of solving the arthematic problems in particular **PEDMAS** sequence.
+P = Parenthesis will get solved 1st.  
+E = Exponents will get solved 2nd.
+DM = Divided or Multiplication when we go left to right whichever comes first will get solved 3rd and next will be 4th.
+AS = Addition or Substraction which ever comes first when we go left to right will get solved 5th and next one will be 6th.
+this are the order that a problem should be solved
+``x=1-2+23x23+(20/10+12); ``  
+then the value of x = 542 
+
+
+# Bitwise operators
+basically operators that are being use for the bit manipulation,bitwise operators are more faster than the normal arithmetic operators,why?because they are directly working on the bit's
+**the data which we input the actual thing is binary is storing**
+**we can know what is actually storing in the memory**  by this command.  
+  ```System.out.println(Integer.toBinaryStrig(a));```  
+  this will actually tell's what actually store into the memory.
+
+# Array 
+so st
+
